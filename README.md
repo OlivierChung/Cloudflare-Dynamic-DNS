@@ -11,7 +11,7 @@ This script allows you to update your DNS records at Cloudflare directly from yo
 
 ## USAGE (Assume your domain is example.com)
 
-1. Copy both **.htaccess** and **/nic/** folder to the root document of example.com
+1. Copy the folder **/nic/** to the root document of example.com.
 2. Login to your router administration interface.
 3. Find the **DDNS Configuration** section and fill it as such (this may vary depending on the make and model of your router).
 
