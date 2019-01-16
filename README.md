@@ -15,14 +15,14 @@ This script allows you to update your DNS records at Cloudflare directly from yo
 2. Login to your router administration interface.
 3. Find the **DDNS Configuration** section and fill it as such (this may vary depending on the make and model of your router).
 
-  	- Enable DDNS: Enabled
-  	- WAN Name: keep default
-  	- Service Provider: dyndns-custom
-  	- Host Name: example.com
-  	- Service Port: 443
-  	- Domain Name: ddns.example.com
-  	- User Name: your_cloudflare_email_address
-  	- Password: your_cloudflare_global_api_key
+  	- Enable DDNS: *Enabled*
+  	- WAN Name: *keep default*
+  	- Service Provider: *dyndns-custom*
+  	- Host Name: *example.com*
+  	- Service Port: *443* (80 if using HTTP)
+  	- Domain Name: *ddns.example.com*
+  	- User Name: *your_cloudflare_email_address*
+  	- Password: *your_cloudflare_global_api_key*
 
 4. Save & apply.
 
