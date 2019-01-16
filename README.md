@@ -6,10 +6,8 @@ This script allows you to update your DNS records at Cloudflare directly from yo
 ## REQUIREMENTS
  - Cloudflare account with your own domain (e.g example.com) and an A Record (e.g ddns.example.com)
  - A router with DynDNS service that can call a custom url with the following syntax
-    https://example.com/nic/update?myip=<ip_address>&hostname=<hostname>
+    `https://example.com/nic/update?myip=<ip_address>&hostname=<hostname>`
  - Webserver with PHP (for self-hosting)
-        - If you do not have access to a webserver, you may use
-    cloudflare-ddns.olivierchung.com
 
 ## USAGE (Assume your domain is example.com)
 
@@ -30,4 +28,6 @@ This script allows you to update your DNS records at Cloudflare directly from yo
 
 ## ADDITIONAL INFO
 
-If you do not have a webserver with PHP, you may skip step 1. and in step 3., replace **Host Name: example.com** with **Host Name: cloudflare-ddns.olivierchung.com**
+If you do not have a webserver with PHP, you may skip **step 1.** and change your Host Name in **step 3.** as follows:
+
+  	- Host Name: cloudflare-ddns.olivierchung.com
